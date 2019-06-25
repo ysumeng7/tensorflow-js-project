@@ -1,11 +1,14 @@
 {
   "name": "tensorflow-js-project",
   "version": "0.1.0",
-  "private": true,
+  "main": "src/index.js",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "@tensorflow-models/mobilenet": "0.2.2",
+    "@tensorflow/tfjs": "0.14.0",
+    "react-magic-dropzone": "1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
